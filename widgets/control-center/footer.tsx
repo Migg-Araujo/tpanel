@@ -5,7 +5,7 @@ export const Footer = () => {
 
   return (
     <box valign={END} cssClasses={["footer"]}>
-      <label hexpand label="NOBODY FUX WITH TUX" />
+      <label hexpand label=" CODE BREW BY MIGG" />
     </box>
   );
 };
