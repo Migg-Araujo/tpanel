@@ -1,6 +1,11 @@
 <h3 align="center">
-  tux's panel
+  Migg's panel(Forked by tux)
 </h3>
+
+<h3 align="center">
+  Thanks tux (Original Repository: github:tuxdotrs/tpanel)
+</h3>
+
 <p align="center">
   <a href="https://wakatime.com/badge/user/012e8da9-99fe-4600-891b-bd9d8dce73d9/project/78c29f20-90c3-4f22-a3b6-a83724f8e97e"><img src="https://wakatime.com/badge/user/012e8da9-99fe-4600-891b-bd9d8dce73d9/project/78c29f20-90c3-4f22-a3b6-a83724f8e97e.svg" alt="wakatime"></a>
   <a href="https://builtwithnix.org" target="_blank"><img alt="home" src="https://img.shields.io/static/v1?logo=nixos&logoColor=white&label=&message=Built%20with%20Nix&color=41439a"></a>
@@ -16,7 +21,7 @@ Quick
 
 ```nix
 # If you want to quickly test out tpanel
-nix run github:tuxdotrs/tpanel
+nix run github:Migg-Araujo/tpanel
 ```
 
 Flake
@@ -24,7 +29,7 @@ Flake
 ```nix
 # Add to your flake inputs
 tpanel = {
-  url = "github:tuxdotrs/tpanel";
+  url = "github:Migg-Araujo/tpanel";
   inputs.nixpkgs.follows = "nixpkgs";
 };
 
